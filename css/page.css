@@ -1,0 +1,763 @@
+
+.position-box{
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    margin-top: 10px;
+}
+.position-box span{
+    color: #0066ae;
+}
+.box-left{
+    width: 870px;
+    float: left;
+    border: 1px solid #d4dbe1;
+}
+.box-left .article-box{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box-left .article-title{
+    height: 95px;
+    border-bottom: 1px solid #d4dbe1;
+}
+.box-left .article-title p{
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    padding-top: 26px;
+    letter-spacing: 2px;
+}
+.box-left .article-title .publish-box{
+    color: #999999;
+    margin-top: 16px;
+    height: 20px;
+    float: left;
+}
+.box-left .article-title .publish-box ul{
+
+}
+.box-left .article-title .publish-box ul li{
+    float: left;
+    position: relative;
+    margin-right: 12px;
+}
+.box-left .article-title .publish-box ul li i{
+    width: 1px;
+    height: 11px;
+    position: absolute;
+    background: url("../images/gray-line.png") no-repeat;
+    top: 4px;
+    right: -6px;
+}
+.box-left .article-title .publish-box ul li:last-child{
+    border: none;
+}
+.box-left .article-title .share-box{
+    height: 20px;
+    float: right;
+    margin-top: 15px;
+}
+.box-left .article-title .share-box ul{
+
+}
+.box-left .article-title .share-box ul li{
+    float: left;
+}
+.box-left .article-title .share-box ul li a {
+    color: #333;
+    cursor: pointer;
+    text-decoration: none;
+}
+.box-left .article-title .share-box ul li a.share-a{
+    cursor: default;
+}
+.box-left .article-title .share-box ul li a i{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.box-left .article-title .share-box ul li a i.icon-1{
+    background: url("../images/share.png") no-repeat;
+}
+.box-left .article-title .share-box ul li a i.icon-2{
+    background: url("../images/xl.png") no-repeat;
+    margin-left: 3px;
+}
+.box-left .article-title .share-box ul li a i.icon-3{
+    background: url("../images/kj.png") no-repeat;
+    margin-left: 3px;
+}
+.box-left .article-title .share-box ul li a i.icon-4{
+    background: url("../images/wx.png") no-repeat;
+    margin-left: 3px;
+}
+.box-left .article-title .share-box ul li a i.icon-5{
+    background: url("../images/qq.png") no-repeat;
+    margin-left: 3px;
+}
+.box-left .article-title .share-box ul li a i.icon-6{
+    background: url("../images/rr.png") no-repeat;
+    margin-left: 3px;
+}
+.box-left .article-title .share-box ul li a i.icon-7{
+    background: url("../images/tw.png") no-repeat;
+    margin-left: 3px;
+}
+.box-left .article-title .share-box ul li a i.icon-8{
+    background: url("../images/me.png") no-repeat;
+    margin-left: 3px;
+}
+.box-left .article-title .share-box ul li a i.icon-9{
+    background: url("../images/one.png") no-repeat;
+    margin-left: 3px;
+}
+.box-left .article-title .share-box ul li a i.icon-10{
+    background: url("../images/pr.png") no-repeat;
+    margin-left: 3px;
+}
+.box-left .article-title .share-box ul li a i.icon-11{
+    background: url("../images/co.png") no-repeat;
+    margin-left: 3px;
+}
+
+
+.box-left .article-main-box{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box-left .article-main-box .gray-box{
+    padding: 10px 5px 15px 11px;
+    background: #f0f2f7;
+    border-radius: 6px;
+    color: #333;
+    margin-top: 25px;
+}
+.box-left .article-main-box .img-box{
+    margin-left: 222px;
+    margin-right: 222px;
+    margin-top: 12px;
+}
+.box-left .article-main-box .article-p-title{
+    color: #333;
+    line-height: 20px;
+}
+.box-left .article-main-box .article-p-content{
+    line-height: 20px;
+    margin-bottom: 27px;
+    color: #333;
+}
+.box-right{
+    width: 290px;
+    float: left;
+    margin-left: 38px;
+    margin-top: -12px;
+}
+.box-left2{
+    width: 305px;
+    float: left;
+    margin-top: 20px;
+    border-right: 1px solid #d4dbe1;
+}
+.box-left2 .jkxl-img img{
+    width: 290px;
+}
+.box-right2{
+    float: left;
+    width: 876px;
+    margin-left: 16px;
+    margin-top: 8px;
+}
+.box-right2 .jkrd-title{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #d4dbe1;
+}
+.box-right2 .jkrd-title .blue-text{
+    color: #1177bf;
+    font-size: 18px;
+    float: left;
+}
+.box-right2 .jkrd-title .more-text {
+    color: #999999;
+    float: right;
+    cursor: pointer;
+}
+.box-right2 .jkrd-list{
+
+}
+.box-right2 .jkrd-list ul{
+
+}
+.box-right2 .jkrd-list ul li{
+    height: 125px;
+    border-bottom: 1px dashed #bfbfbf;
+    position: relative;
+    padding-left: 5px;
+}
+.box-right2 .jkrd-list ul li:last-child{
+    border: none;
+}
+.box-right2 .jkrd-list ul li:hover{
+    background: #f8f9fb;
+}
+.box-right2 .jkrd-list ul li h4{
+    font-size: 20px;
+    line-height: 40px;
+}
+.box-right2 .jkrd-list ul li h4 a{
+    text-decoration: none;
+    color: #000;
+}
+.box-right2 .jkrd-list ul li .jkrd-content{
+
+}
+.box-right2 .jkrd-list ul li .jkrd-content .xq-a{
+    color: #0077ca;
+}
+.box-right2 .jkrd-list ul li .jkrd-content-even{
+    color: #666666;
+    line-height: 22px;
+}
+
+.box-right2 .jkrd-list ul li .date-content{
+    color: #999999;
+    float: left;
+    position: absolute;
+    bottom: 6px;
+}
+.box-right2 .jkrd-list ul li .share-btn{
+    color: #666666;
+    position: absolute;
+    right: 0;
+    bottom: 6px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.box-right2 .jkrd-list ul li .share-btn i{
+    width: 16px;
+    height: 16px;
+    background: url("../images/share.png") no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+.box-right2 .jkrd-list ul li .share-box-link{
+    width: 185px;
+    height: 175px;
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    background: #fff;
+    position: absolute;
+    right: 19px;
+    top: 102px;
+    z-index:22;
+    display: none;
+}
+.box-right2 .jkrd-list ul li .share-btn:hover{
+    color: #006ebb;
+}
+.box-right2 .jkrd-list ul li .share-btn:hover .share-box-link{
+    display: block;
+}
+.box-right2 .jkrd-list ul li .share-box-link .link-title{
+    height: 26px;
+    line-height: 26px;
+    border-bottom: 1px solid #dcdcdc;
+    padding-left: 7px;
+    background: #f3f3f3;
+    color: #333;
+    position: relative;
+}
+.box-right2 .jkrd-list ul li .share-box-link .link-title i.icon-close{
+    width: 10px;
+    height: 10px;
+    background: url("../images/close.png") no-repeat;
+    position: absolute;
+    top: 8px;
+    right: 7px;
+    cursor: pointer;
+}
+.box-right2 .jkrd-list ul li .share-box-link .share-list{
+    display: inline-block;
+    color: #333;
+    line-height: 32px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 70px;
+    margin-left: 14px;
+}
+.box-right2 .jkrd-list ul li .share-box-link .share-list span{
+    display: inline-block;
+    font-size: 10px;
+}
+.box-right2 .jkrd-list ul li .share-box-link .share-list i{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 6px;
+}
+.box-right2 .jkrd-list ul li .share-box-link .share-list i.wb{
+    background: url("../images/xl.png") no-repeat;
+}
+.box-right2 .jkrd-list ul li .share-box-link .share-list i.kj{
+    background: url("../images/kj.png") no-repeat;
+}
+.box-right2 .jkrd-list ul li .share-box-link .share-list i.wx{
+    background: url("../images/wx.png") no-repeat;
+}
+.box-right2 .jkrd-list ul li .share-box-link .share-list i.qq{
+    background: url("../images/qq.png") no-repeat;
+}
+.box-right2 .jkrd-list ul li .share-box-link .share-list i.rr{
+    background: url("../images/rr.png") no-repeat;
+}
+.box-right2 .jkrd-list ul li .share-box-link .share-list i.tw{
+    background: url("../images/tw.png") no-repeat;
+}
+.box-right2 .jkrd-list ul li .share-box-link .share-list i.one{
+    background: url("../images/one.png") no-repeat;
+}
+.box-right2 .jkrd-list ul li .share-box-link .share-list i.me{
+    background: url("../images/me.png") no-repeat;
+}
+.box-right2 .jkrd-list ul li .share-box-link .share-list i.co{
+    background: url("../images/co.png") no-repeat;
+}
+.box-right2 .jkrd-list ul li .share-box-link .share-list i.pr{
+    background: url("../images/pr.png") no-repeat;
+}
+.box-right2 .jkrd-list ul li .share-box-link .share-box-out{
+    margin-top: 5px;
+}
+.box-right2 .jkrd-list ul li .share-box-link .share-box-out ul{
+
+}
+.box-right2 .jkrd-list ul li .share-box-link .share-box-out ul li{
+    display: block;
+    height: 27px;
+    border: none;
+    padding-left: 0;
+}
+.box-right2 .jkrd-list ul li .share-box-link .share-box-out ul li:hover{
+    background: none;
+}
+.box-left3{
+    width: 870px;
+    float: left;
+}
+.box-left3 .title-box {
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #d4dbe1;
+    margin-top: 10px;
+}
+.box-left3 .ylzy-text {
+    color: #1177bf;
+    font-size: 18px;
+    float: left;
+}
+.box-left3 .more-text {
+    color: #999;
+    float: right;
+    cursor: pointer;
+}
+.box-left3 .jdgz-box{
+
+}
+.box-left3 .jdgz-box ul{
+
+}
+.box-left3 .jdgz-box ul li{
+    border-bottom: 1px dashed #bfbfbf;
+    padding-bottom: 10px;
+    position: relative;
+}
+.box-left3 .jdgz-box ul li:last-child{
+    border-bottom: none;
+}
+.box-left3 .jdgz-box ul li .photo{
+    margin-right: 13px;
+    margin-top: 6px;
+    float: left;
+}
+.box-left3 .jdgz-box ul li .photo img{
+    width: 146px;
+    height: 160px;
+}
+.box-left3 .jdgz-box ul li .title{
+    font-size: 20px;
+    color: #000;
+    height: 35px;
+    line-height: 40px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.box-left3 .jdgz-box ul li .title .xq-a{
+    color: #0077ca;
+    font-size: 14px;
+    margin-left: 8px;
+}
+.box-left3 .jdgz-box ul li .title i{
+    width: 25px;
+    height: 18px;
+    background: url("../images/new.png") no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-top: -5px;
+}
+.box-left3 .jdgz-box ul li .fbjg-box{
+    display: inline-block;
+    color: #999999;
+    font-size: 12px;
+    line-height: 26px;
+}
+.box-left3 .jdgz-box ul li .share-btn{
+    color: #666666;
+    float: right;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 14px;
+}
+.box-left3 .jdgz-box ul li .share-btn:hover {
+    color: #006ebb;
+}
+.box-left3 .jdgz-box ul li .share-btn i {
+    width: 16px;
+    height: 16px;
+    background: url(../images/share.png) no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+.box-left3 .jdgz-box ul li .share-box-link {
+    width: 185px;
+    height: 175px;
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    background: #fff;
+    position: absolute;
+    right: 19px;
+    top: 38px;
+    z-index: 22;
+    display: none;
+}
+.box-left3 .jdgz-box ul li .share-box-link .link-title {
+    height: 26px;
+    line-height: 26px;
+    border-bottom: 1px solid #dcdcdc;
+    padding-left: 7px;
+    background: #f3f3f3;
+    color: #333;
+    position: relative;
+}
+.box-left3 .jdgz-box ul li .share-box-link .link-title i.icon-close {
+    width: 10px;
+    height: 10px;
+    background: url(../images/close.png) no-repeat;
+    position: absolute;
+    top: 8px;
+    right: 7px;
+    cursor: pointer;
+}
+
+.box-left3 .jdgz-box ul li .share-box-link .share-box-out ul{
+
+}
+.box-left3 .jdgz-box ul li .share-box-link .share-box-out ul li{
+    display: block;
+    height: 27px;
+    border: none;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+.box-left3 .jdgz-box ul li .share-box-link .share-list {
+    display: inline-block;
+    color: #333;
+    line-height: 29px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 70px;
+    margin-left: 14px;
+}
+.box-left3 .jdgz-box ul li .share-box-link .share-list span{
+    display: inline-block;
+    font-size: 10px;
+}
+.box-left3 .jdgz-box ul li .share-box-link .share-list i {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 6px;
+}
+.box-left3 .jdgz-box ul li .share-box-link .share-list i.wb{
+    background: url("../images/xl.png") no-repeat;
+}
+.box-left3 .jdgz-box ul li .share-box-link .share-list i.kj{
+    background: url("../images/kj.png") no-repeat;
+}
+.box-left3 .jdgz-box ul li .share-box-link .share-list i.wx{
+    background: url("../images/wx.png") no-repeat;
+}
+.box-left3 .jdgz-box ul li .share-box-link .share-list i.qq{
+    background: url("../images/qq.png") no-repeat;
+}
+.box-left3 .jdgz-box ul li .share-box-link .share-list i.rr{
+    background: url("../images/rr.png") no-repeat;
+}
+.box-left3 .jdgz-box ul li .share-box-link .share-list i.tw{
+    background: url("../images/tw.png") no-repeat;
+}
+.box-left3 .jdgz-box ul li .share-box-link .share-list i.one{
+    background: url("../images/one.png") no-repeat;
+}
+.box-left3 .jdgz-box ul li .share-box-link .share-list i.me{
+    background: url("../images/me.png") no-repeat;
+}
+.box-left3 .jdgz-box ul li .share-box-link .share-list i.co{
+    background: url("../images/co.png") no-repeat;
+}
+.box-left3 .jdgz-box ul li .share-box-link .share-list i.pr{
+    background: url("../images/pr.png") no-repeat;
+}
+.box-left3 .jdgz-box ul li .share-box-link .share-box-out{
+    margin-top: 5px;
+}
+.box-left3 .jdgz-box ul li p{
+    color: #333;
+    font-size: 14px;
+}
+.box-left3 .ylbj-box{
+    height: 100%;
+    width: 870px;
+    border-top: 1px solid #d4dbe1;
+    border-bottom: 1px solid #d4dbe1;
+    float: left;
+}
+.box-left3 .ylbj-box .ylbj-box-left{
+    width: 47%;
+    float: left;
+    height: 100%;
+    border-right: 1px solid #d4dbe1;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.box-left3 .ylbj-box .ylbj-box-right{
+    width: 48%;
+    float: left;
+    height: 100%;
+    padding-left: 22px;
+    padding-bottom: 10px;
+}
+.box-left3 .ylbj-box .yl-text {
+    color: #1177bf;
+    font-size: 18px;
+   display: block;
+    line-height: 40px;
+}
+.box-left3 .ylbj-box .yl-news-list{
+
+}
+.box-left3 .ylbj-box .yl-news-list ul{
+
+}
+.box-left3 .ylbj-box .yl-news-list ul li{
+
+}
+.box-left3 .ylbj-box .yl-news-list ul li a{
+    display: block;
+    line-height: 26px;
+}
+.box-left3 .ylbj-box .yl-news-list ul li a .news-text {
+    width: 248px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    float: left;
+    color: #333;
+}
+.box-left3 .ylbj-box .yl-news-list ul li a:hover .news-text{
+    color: #1194cf;
+}
+.box-left3 .ylbj-box .yl-news-list ul li a .date-text {
+    font-size: 12px;
+    color: #747474;
+    float: right;
+    margin-right: 20px;
+}
+.box-right3{
+    width: 290px;
+    float: left;
+    margin-left: 36px;
+}
+.box-right3 .green-box {
+    width: 284px;
+    height: 141px;
+    background: url(../images/green.png) no-repeat;
+    cursor: pointer;
+    float: left;
+    text-decoration: none;
+    margin-top: 25px;
+}
+.box-right3 .green-box.blue-box{
+    background: url(../images/blue.png) no-repeat;
+    margin-top: 20px;
+}
+.box-right3 .green-box .first-text {
+    color: #fff;
+    font-size: 28px;
+    display: block;
+    margin-top: 37px;
+    margin-left: 20px;
+}
+.box-right3 .green-box .second-text {
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    margin-left: 20px;
+}
+
+.box-left3 .ylbj-box2{
+    height: 100%;
+    width: 870px;
+    border-top: 1px solid #d4dbe1;
+    float: left;
+}
+.box-left3 .ylbj-box2 .ylbj-box-left{
+    width: 47%;
+    float: left;
+    height: 100%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.box-left3 .ylbj-box2 .ylbj-box-right{
+    width: 48%;
+    float: left;
+    height: 100%;
+    padding-left: 22px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.box-left3 .ylbj-box2 .yl-text {
+    color: #1177bf;
+    font-size: 18px;
+    display: block;
+    line-height: 40px;
+}
+.box-left3 .ylbj-box2 .yl-news-list{
+
+}
+.box-left3 .ylbj-box2 .yl-news-list ul{
+
+}
+.box-left3 .ylbj-box2 .yl-news-list ul li{
+
+}
+.box-left3 .ylbj-box2 .yl-news-list ul li a{
+    display: block;
+    line-height: 26px;
+}
+.box-left3 .ylbj-box2 .yl-news-list ul li a .news-text {
+    width: 248px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    float: left;
+    color: #333;
+}
+.box-left3 .ylbj-box2 .yl-news-list ul li a:hover .news-text{
+    color: #1194cf;
+}
+.box-left3 .ylbj-box2 .yl-news-list ul li a .date-text {
+    font-size: 12px;
+    color: #747474;
+    float: right;
+    margin-right: 20px;
+}
+.box-left3 .zxlb-list{
+
+}
+.box-left3 .zxlb-list ul {
+
+}
+.box-left3 .zxlb-list ul li{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px dashed #bfbfbf;
+}
+.box-left3 .zxlb-list ul li {
+    display: block;
+    color: #000;
+    padding-left: 20px;
+}
+.box-left3 .zxlb-list ul li a{
+    color:#000;
+    text-decoration: none;
+    display: block;
+}
+.box-left3 .zxlb-list ul li .xq-a{
+    color: #0077ca;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.box-left3 .zxlb-list ul li i {
+    width: 25px;
+    height: 18px;
+    background: url(../images/new.png) no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-top: -5px;
+}
+.box-left3 .zxlb-list ul li .time-box {
+    font-size: 12px;
+    color: #747474;
+    float: right;
+}
+.box-left3 .page-box{
+    margin-left: 250px;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.box-left3 .page-box .page-btn{
+    width: 62px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background: #f8fbfe;
+    border: 1px solid #d4dbe1;
+    color: #666666;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+}
+.box-left3 .page-box .page-num-box{
+    display: inline-block;
+    margin-left: 44px;
+    margin-right: 44px;
+}
+.box-left3 .page-box .page-num-box .page-num{
+    color: #888888;
+    width: 15px;
+    height: 18px;
+    line-height: 18px;
+    display: inline-block;
+    text-align: center;
+}
+
+.box-left3 .page-box .page-num-box .page-num:hover{
+    color: #006ebb;
+    font-size: 18px;
+}
+.box-left3 .page-box .page-num-box .page-num.active{
+    color: #000;
+    font-size: 18px;
+}
